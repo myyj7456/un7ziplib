@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         initDB();
     }
 
+
     private void initDB() {
         AssetsDatabaseManager.initManager(this.getApplicationContext());
         AssetsDatabaseManager mg = AssetsDatabaseManager.getAssetsDatabaseManager();
