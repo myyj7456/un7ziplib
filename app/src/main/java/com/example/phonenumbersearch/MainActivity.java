@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         AssetsDatabaseManager.closeAllDatabase();
     }
 
+
     @Override
     public void onClick(View view) {
         String phoneNumber = mNumberEditText.getText().toString();
