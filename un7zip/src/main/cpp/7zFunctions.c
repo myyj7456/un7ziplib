@@ -27,9 +27,7 @@
 static const ISzAlloc g_Alloc = {SzAlloc, SzFree};
 
 void Print(const char *s) {
-    if (DEBUG_LOG) {
         LOGD("%s", s);
-    }
 }
 
 void PrintError(const char *s) {
